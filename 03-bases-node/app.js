@@ -3,7 +3,7 @@ const colors = require("colors");
 const { crearArchivo, listarTabla } = require("./multiplicar/multiplicar");
 /*
 En node existen varios objetos globales como en el navegador, hasta ahora hemos visto el objeto process y el objeto
-module. El yargs permite pasar parametros y comandos y poder acceder a ellos de manera simple, tiene varios valores
+module(recordar que los comandos se encuentran en el objeto progress.argv apartir de la posicion 2 del array ). El yargs permite pasar parametros y comandos y poder acceder a ellos de manera simple, tiene varios valores
 que se le puede poner como si son necesarios si son por defecto alias etc. Si no es un parametro sino un comando 
 se obtiene en el primer elemento del objeto con el nombre de la propiedad _
 */
